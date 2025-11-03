@@ -77,8 +77,6 @@ Interactive guide through test scenarios.
 
 [![DOWNLOAD](https://img.shields.io/badge/DOWNLOAD-Lab06EmployeeRoster.zip-blue?style=for-the-badge&logo=github)](https://github.com/hjoseph777/Lab06EmployeeRoster/releases/download/v1/Lab06EmployeeRoster.zip)
 
-[![DOWNLOAD](https://img.shields.io/badge/DOWNLOAD-LAB06EMPLOYEEROSTER.ZIP-blue?style=for-the-badge&logo=github)](https://github.com/hjoseph777/Lab06EMPLOYEEROSTER/releases/tag/v1)
-
 **Or clone the repository:**
 
 ```bash
