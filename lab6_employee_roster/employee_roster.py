@@ -144,7 +144,8 @@ def add_department():
         seniority = get_valid_seniority()
         
         # Store employee data
-        employee_line = f"{first_name} – {last_name} – {emp_id} – {seniority}"
+        # Format: FirstName,LastName,EmployeeID,SeniorityLevel
+        employee_line = f"{first_name},{last_name},{emp_id},{seniority}"
         employees.append(employee_line)
     
     # Save to file

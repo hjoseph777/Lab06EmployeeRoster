@@ -27,15 +27,15 @@ lab6_employee_roster/
 ```
 
 **Files:**
-- [employee_roster.py](employee_roster.py) - Main program code
-- [automated_test_runner.py](automated_test_runner.py) - Automated testing suite
-- [testcase_script.py](testcase_script.py) - Manual testing guide
-- [test_output_demo.md](test_output_demo.md) - Test results
+- [employee_roster.py](lab6_employee_roster/employee_roster.py) - Main program code
+- [automated_test_runner.py](lab6_employee_roster/automated_test_runner.py) - Automated testing suite
+- [testcase_script.py](lab6_employee_roster/testcase_script.py) - Manual testing guide
+- [test_output_demo.md](lab6_employee_roster/test_output_demo.md) - Test results
 
 **Sample Data Files:**
-- [employees_sales.txt](data/employees_sales.txt) - Sales department
-- [employees_marketing.txt](data/employees_marketing.txt) - Marketing department
-- [employees_engineering.txt](data/employees_engineering.txt) - Engineering department
+- [employees_sales.txt](lab6_employee_roster/data/employees_sales.txt) - Sales department
+- [employees_marketing.txt](lab6_employee_roster/data/employees_marketing.txt) - Marketing department
+- [employees_engineering.txt](lab6_employee_roster/data/employees_engineering.txt) - Engineering department
 
 ## How to Run
 
@@ -57,7 +57,7 @@ python automated_test_runner.py
 
 ## 🎬 **LIVE DEMO - See The Program In Action!**
 
-### **👉 [VIEW COMPLETE TEST OUTPUT DEMO](test_output_demo.md) 👈**
+### **👉 [VIEW COMPLETE TEST OUTPUT DEMO](lab6_employee_roster/test_output_demo.md) 👈**
 
 **See real-time program output from comprehensive testing scenarios**
 
@@ -110,9 +110,9 @@ git checkout v1
 ## Technical Details
 
 ### File Format
-Employee data is stored as plain text with this format:
+Employee data is stored as comma-separated values (CSV) with this format:
 ```
-FirstName – LastName – EmployeeID – SenioritLevel
+FirstName,LastName,EmployeeID,SeniorityLevel
 ```
 
 ### Filename Convention  
@@ -124,12 +124,12 @@ Department names are converted to lowercase with spaces replaced by underscores 
 
 ### Functions
 
-- [`get_valid_integer()`](employee_roster.py#L11) - Validates numeric input with minimum value checking
-- [`get_valid_seniority()`](employee_roster.py#L35) - Handles seniority level validation with multiple input formats
-- [`build_filename()`](employee_roster.py#L70) - Creates safe filenames from department names
-- [`add_department()`](employee_roster.py#L80) - Complete workflow for creating new departments
-- [`view_department()`](employee_roster.py#L147) - File loading and formatted display with error recovery
-- [`main()`](employee_roster.py#L186) - Menu system and program coordination
+- [`get_valid_integer()`](lab6_employee_roster/employee_roster.py#L11) - Validates numeric input with minimum value checking
+- [`get_valid_seniority()`](lab6_employee_roster/employee_roster.py#L35) - Handles seniority level validation with multiple input formats
+- [`build_filename()`](lab6_employee_roster/employee_roster.py#L70) - Creates safe filenames from department names
+- [`add_department()`](lab6_employee_roster/employee_roster.py#L80) - Complete workflow for creating new departments
+- [`view_department()`](lab6_employee_roster/employee_roster.py#L147) - File loading and formatted display with error recovery
+- [`main()`](lab6_employee_roster/employee_roster.py#L186) - Menu system and program coordination
 
 ## Notes
 
